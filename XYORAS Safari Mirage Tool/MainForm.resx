@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label5.Text" xml:space="preserve">
+    <value>FF FF FE FF - 01: 467 - Crescent Isle           - Cresselia
+FF 7F FF FF - 02: 184 - East of Mossdeep        - Tangela, Sunkern, Glameow, Minccino
+02 00 00 00 - 03: 185 - North of Route 124      - Tangela, Sunkern, Purugly, Vulpix
+?? ?? ?? ?? - 04: 186 - West of Route 114       - Tangela, Sunkern, Purugly, Petilil
+7F FF FF FF - 05: 187 - North of Lilycove       - Tangela, Sunkern, Purugly, Cherrim
+F7 FF FF FF - 06: 188 - South of Route 132      - Sunkern, Petilil, Audino
+FF FE FF FF - 07: 189 - West of Route 105       - Forretress, Happiny
+04 00 00 00 - 08: 190 - South of Route 109      - Audino, Sunkern
+?? ?? ?? ?? - 09: 191 - North of Route 111      - Kricketune, Larvesta
+03 00 00 00 - 10: 192 - West of Rustboro        - Tynamo, Klink, Boldore, Graveler
+?? ?? ?? ?? - 11: 193 - North of Fortree        - Klink, Tynamo, Excadrill, Onix
+?? ?? ?? ?? - 12: 194 - South of Pacifidlog     - Tynamo, Cofagrigus, Slowpoke
+EF FF FF FF - 13: 195 - South of Route 107      - Unown
+?? ?? ?? ?? - 14: 196 - North of Route 124      - Klink, Cofagrigus, Graveler, Boldore
+01 00 00 00 - 15: 197 - North of Route 132      - Ditto, Excadrill, Tynamo
+?? ?? ?? ?? - 16: 198 - Southeast of Route 129  - Tynamo, Onix, Graveler, Boldore
+?? ?? ?? ?? - 17: 199 - North of Fallarbor      - Slowpoke, Tynamo
+?? ?? ?? ?? - 18: 200 - West of Route 104       - Venomoth, Xatu, Zebstrika, Darmanitan
+FF FB FF FF - 19: 201 - South of Route 134      - Venomoth, Xatu, Zebstrika, Maractus
+FF FF FF FB - 20: 202 - North of Route 124      - Venomoth, Xatu, Zebstrika, Persian
+FF FF FF DF - 21: 203 - West of Dewford Town    - Venomoth, Xatu, Zebstrika, Tangela
+05 00 00 00 - 22: 204 - South of Pacifidlog     - Audino, Xatu
+FF FF 7F FF - 23: 205 - South of Route 132      - Munna, Ditto
+?? ?? ?? ?? - 24: 206 - North of Route 113      - Darmanitan, Larvesta
+BF FF FF FF - 25: 207 - East of Shoal Cave      - Purugly, Porygon
+FF FF F7 FF - 26: 208 - West of Route 104       - Forretress, Donphan, Kricketune, Stantler
+?? ?? ?? ?? - 27: 460 - North of Lilycove       - Forretress, Donphan, Kricketune, Rufflet
+FD FF FF FF - 28: 461 - Northeast of Route 125  - Forretress, Donphan, Kricketune, Vullaby
+FF DF FF FF - 29: 462 - West of Route 131       - Donphan, Kricketune, Girafarig
+06 00 00 00 - 30: 463 - North of Mossdeep       - Magby, Darmanitan
+FF FF DF FF - 31: 464 - South of Route 129      - Zebstrika, Elekid
+00 00 00 00 - 32: 465 - Southeast of Route 129  - Porygon, Xatu, Munna
+FE FF FF FF - 33: 466 - East of Mossdeep        - Audino, Happiny, Tangela</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>This spot can be transfered via PSS (online/streetpass) and has hidden items. There are no other differences with received PSS spots, so this method is only recommended to get those hidden items or transfering the spot to other players.  If you want to catch pokémon using this method, you'll need to save in the mirage spot, then change your TID again or your pokémon will have TID 00000, so PSS spots are more convenient.</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Daily Mirage spot is randomly generated  each time the game is saved, then via an unknown algorythm it is used with TID to generate the mirage spot for the day. You may set TID to 0x0000 and set MDV to any of the following values so your save produces that certain mirage spot.</value>
+  </data>
+</root>
